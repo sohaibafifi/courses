@@ -53,6 +53,16 @@ module.exports = {
                 path: '/M2105/',
                 collapsable: true,
                 children: [{
+                    title: 'TD',
+                    path: '/M2105/TD/',
+                    collapsable: true,
+                    sidebarDepth: 1,
+                    children: [
+                        ['/M2105/TD/TD1', 'TD1 - Introduction PHP'],
+                        ['/M2105/TD/TD2', 'TD2 - Introduction à PHP avec PostgreSQL'],
+                    ]
+                }, 
+                {
                     title: 'TP',
                     path: '/M2105/TP/',
                     collapsable: true,

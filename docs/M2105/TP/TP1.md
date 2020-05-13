@@ -164,7 +164,7 @@ Créer une page ```convertisseur.html``` contenant un formulaire composé de :
 - une zone d'options permettant de choisir le sens de conversion que l'on désire, dollars vers euros ou l'inverse (boutons radios)
 - un champ texte permettant de saisir la valeur que l'on souhaite convertir.
 
-![](img/convertisseur.png  "convertisseur")
+![](./img/convertisseur.png  "convertisseur")
 
 >***Aide :***
 
@@ -224,7 +224,7 @@ Réaliser la page ```convertisseur_action.php```, l'URL action de ce formulaire,
 
 </body>
 </html>
-``
+```
 
 ::: tip Aide
 vous pouvez allez chercher le taux sur une autre page
@@ -236,7 +236,7 @@ vous pouvez allez chercher le taux sur une autre page
 
 Dans cette partie partie vous allez reprendre l'habillage du site Web créé au [**TP n°5 du module M1106**](http://www.lgi2a.univ-artois.fr/~mercier/teaching/M1106_web/M1106_tp5.html) 
 
-![](img/site_page1.png) 
+![](./img/site_page1.png) 
 
 À la place des pages ```page1.html```, ```page2.html```, ```page3.html```, vous allez mettre :
 
@@ -246,11 +246,11 @@ Dans cette partie partie vous allez reprendre l'habillage du site Web créé au 
 
 Par exemple, pour le formulaire :
 
-![](img/form_site.png) 
+![](./img/form_site.png) 
 
 Les pages d'action des formulaires gardent l'habillage du site et seront aussi affichées dans le bloc "navcorps".
 
-![](img/form_site_action.png) 
+![](./img/form_site_action.png) 
 
 ::: tip Aide
 Vous allez devoir utiliser la fonction PHP include
@@ -320,7 +320,7 @@ Appeler l'enseignant pour valider cette première étape (Obligatoire).
 
 Dans les données de ce TP se trouve un fichier ```film.sql``` permettant de créer et d'initialiser un schéma film dont le diagramme de classe est illustré sur la figure suivante.
 
-![](img/film.png) 
+![](./img/film.png) 
 
 Le schéma film contient les 5 tables suivantes :
 
@@ -450,12 +450,12 @@ while($ligne = pg_fetch_array($result)){
 ```
 
 
-![](img/genres_film.png) 
+![](./img/genres_film.png) 
 
 
 Créer une page ```ajout_genre.php``` affichant dans un premier temps les genres dans un tableau suivis d'un formulaire pour l'insertion d'un nouveau genre.
 
-![](img/Ajout_genre_0.png) 
+![](./img/Ajout_genre_0.png) 
 
 Cet ajout simple peut être rendu plus sophistiqué en vérifiant que le genre n'est pas déjà présent, en faisant attention de toujours écrire les genres avec la même casse (une majuscule suivie de minuscules), en informant l'utilisateur soit de l'ajout soit d'erreur, en n'obligeant pas l'utilisateur à retaper ce qu'il avait mis dans le formulaire
 
