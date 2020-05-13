@@ -27,3 +27,9 @@ jobs:
             ${{ runner.os }}-yarn-
       - run: yarn install
       - run: yarn run build
+      - run: |
+        cd docs/.vuepress/dist 
+        git init
+        git add -A
+        git commit -m 'deploy'
+        git push -f git@github.com:sohaibafifi/courses.git master:gh-pages
