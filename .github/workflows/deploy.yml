@@ -25,13 +25,15 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-      - run: |
+      - name: Build 
+        run: |
           yarn install
           yarn run build
-          cd docs/.vuepress/dist 
-          git init
-          git add -A
-          git config --global user.email "sohaib.lafifi@univ-artois.fr"
-          git config --global user.name "Sohaib LAFIFI"
-          git commit -m 'deploy'
-          git push -f git@github.com:sohaibafifi/courses.git master:gh-pages
+
+      - name: Deploy
+        uses: s0/git-publish-subdir-action@master
+        env:
+          REPO: self
+          BRANCH: gh-pages
+          FOLDER: docs/.vuepress/dist 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
