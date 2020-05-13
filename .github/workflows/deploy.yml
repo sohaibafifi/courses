@@ -31,5 +31,7 @@ jobs:
           cd docs/.vuepress/dist 
           git init
           git add -A
+          git config --global user.email "sohaib.lafifi@univ-artois.fr"
+          git config --global user.name "Sohaib LAFIFI"
           git commit -m 'deploy'
           git push -f git@github.com:sohaibafifi/courses.git master:gh-pages
