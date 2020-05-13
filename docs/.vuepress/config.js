@@ -1,9 +1,11 @@
 module.exports = {
     title: 'Cours - Sohaib LAFIFI',
     description: '',
+    base:'/courses/',
     plugins: [
         ['@vuepress/back-to-top', true],
         ['@vuepress/last-updated'],
+        ['vuepress-plugin-export']
     ],
     themeConfig: {
         navbar: true,
