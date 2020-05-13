@@ -12,7 +12,7 @@ module.exports = {
               // Don't forget to install moment yourself
               const moment = require('moment')
               moment.locale(lang)
-              return moment(timestamp).fromNow()
+              return moment(timestamp).format("DD-MM-YYYY")
             }
           }
         ]
@@ -23,13 +23,14 @@ module.exports = {
         '/': {
           lang: 'fr-FR',  
           title: 'Cours - Sohaib LAFIFI',
-          description: ''
+          description: '',
         }
     },
     themeConfig: {
         navbar: true,
         displayAllHeaders: true,
         sidebarDepth: 2,
+        lastUpdated: "Dernière modification ",
         sidebar: [
             "/", {
                 title: 'M2102-2 : Virtualisation',
