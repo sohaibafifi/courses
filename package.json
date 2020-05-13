@@ -7,5 +7,8 @@
     "@vuepress/plugin-active-header-links": "^1.4.1",
     "@vuepress/plugin-last-updated": "^1.4.1",
     "vuepress": "^1.5.0"
+  },
+  "dependencies": {
+    "moment": "^2.25.3"
   }
 }

@@ -1,12 +1,31 @@
+const moment = require('moment');
 module.exports = {
     title: 'Cours - Sohaib LAFIFI',
     description: '',
     base:'/courses/',
     plugins: [
         ['@vuepress/back-to-top', true],
-        ['@vuepress/last-updated'],
-        ['vuepress-plugin-export']
+        [
+          '@vuepress/last-updated',
+          {
+            transformer: (timestamp, lang) => {
+              // Don't forget to install moment yourself
+              const moment = require('moment')
+              moment.locale(lang)
+              return moment(timestamp).fromNow()
+            }
+          }
+        ]
     ],
+    locales: {
+        // The key is the path for the locale to be nested under.
+        // As a special case, the default locale can use '/' as its path.
+        '/': {
+          lang: 'fr-FR',  
+          title: 'Cours - Sohaib LAFIFI',
+          description: ''
+        }
+    },
     themeConfig: {
         navbar: true,
         displayAllHeaders: true,
