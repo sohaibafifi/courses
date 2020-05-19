@@ -72,6 +72,21 @@ module.exports = {
                         ['/M2105/TP/TP2', 'TP2 Introduction au CMS Wordpress'],
                     ]
                 }]
+            }, 
+            {
+                title: 'M2207 : Consolidation des bases de la programmation',
+                path: '/M2207/',
+                collapsable: true,
+                children: [{
+                    title: 'CM',
+                    path: '/M2207/CM/',
+                    collapsable: true,
+                    sidebarDepth: 1,
+                    children: [
+                        ['/M2207/CM/CM1', 'CM1 - Une introduction à la POO avec Java'],
+                    ]
+                }
+                ]
             }
         ],
 
