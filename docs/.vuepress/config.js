@@ -85,6 +85,15 @@ module.exports = {
                     children: [
                         ['/M2207/CM/CM1', 'CM1 - Une introduction à la POO avec Java'],
                     ]
+                },
+                {
+                    title: 'TP',
+                    path: '/M2207/TP/',
+                    collapsable: true,
+                    sidebarDepth: 1,
+                    children: [
+                        ['/M2207/TP/TP1', 'TP1 - Consolidations des bases de la programmation'],
+                    ]
                 }
                 ]
             }
