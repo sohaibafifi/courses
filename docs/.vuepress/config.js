@@ -6,6 +6,15 @@ module.exports = {
     plugins: [
         ['@vuepress/back-to-top', true],
         [
+          'vuepress-plugin-mathjax',
+          {
+            target: 'svg',
+            macros: {
+              '*': '\\times',
+            },
+          },
+        ],
+        [
           '@vuepress/last-updated',
           {
             transformer: (timestamp, lang) => {
@@ -93,8 +102,11 @@ module.exports = {
                     sidebarDepth: 1,
                     children: [
                         ['/M2207/TP/TP1', 'TP1 - Consolidations des bases de la programmation'],
+                        ['/M2207/TP/TP2', 'TP2 - Création de classes'],
+                        ['/M2207/TP/TP3', 'TP3 - Introduction à la programmation réseau'],
                     ]
-                }
+                }, 
+
                 ]
             }
         ],

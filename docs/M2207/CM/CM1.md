@@ -6,7 +6,7 @@ actionLink: /M2207/CM/CM1
 sidebarDepth: 1	
 ---
 # M2207 - CM1 : Une introduction à la programmation orientée objet avec Java
-> durée : 4h
+> durée : **4h**
 
 ## Qu'est-ce que la programmation objet ?
 
