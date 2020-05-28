@@ -13,7 +13,7 @@ Vous familiariser avec les bases de la création de classes en Java.
 
 ##  Exercice n°1
 
-- Testez les classes du cours si vous ne l'avez pas fait. Ce sont les classes [`Voiture.java`](../M2207/code/Voiture.java), [`TestVoiture.java`](../M2207/code/TestVoiture.java), [`Personne.java`](../M2207/code/Personne.java), [`Etudiant.java`](../M2207/code/Personne.java), [`Enseignant.java`](../M2207/code/Enseignant.java) et [`TestPersonneEtudiantEnseignant.java`](../M2207/code/TestPersonneEtudiantEnseignant.java).
+- Testez les classes du cours si vous ne l'avez pas fait. Ce sont les classes [`Voiture.java`](../code/Voiture.java), [`TestVoiture.java`](../code/TestVoiture.java), [`Personne.java`](../code/Personne.java), [`Etudiant.java`](../code/Personne.java), [`Enseignant.java`](../code/Enseignant.java) et [`TestPersonneEtudiantEnseignant.java`](../code/TestPersonneEtudiantEnseignant.java).
 
 :::tip
 Travaillez dans votre répertoire `M2207/TP2`
