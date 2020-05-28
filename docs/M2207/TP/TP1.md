@@ -15,7 +15,7 @@ Consolider vos bases de programmation Java.
 
 Réalisez un programme Java `Piece.java` en charge simuler le lancement d'une pièce de monnaie (Pile ou Face).
 :::tip
-Math.random()` va vous aider (cf **TP n°4 M1207**).
+`Math.random()` va vous aider (cf **TP n°4 M1207**).
 :::
 :::tip
 Travaillez dans votre répertoire `M2207/TP1`.
