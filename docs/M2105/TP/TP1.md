@@ -550,7 +550,7 @@ exit();
 
 >Pour faire cela, vous aurez besoin des éléments suivants : mécanisme des sessions (```$_SESSION```, ```@session_start()```), pour mettre une chaîne avec une majuscule suivie de minuscules (```ucfirst(strtolower($unechaine))```), pour renvoyer la main à une page page.php (```header("Location: page.php");```), pour vérifier qu'une variable existe (```isset($variable);```).
 
-### Création de votre site web personnel PHP/PostgreSQL
+## Création de votre site web personnel PHP/PostgreSQL
 
 
 Réaliser un site web personnel sur ce que vous voulez : votre page personnelle, un hobby, une association fictive ou non, ...
@@ -564,14 +564,14 @@ Réaliser un site web personnel sur ce que vous voulez : votre page personnelle,
 Barème à titre indicatif
 
 - Site (8 points) :
-	- Menu et gestion des blocs (3 points) (habillage différent de celui de ce TP)
-	- Clarté code (respect W3C) et factorisation (4 points) En particulier : les identifiants de connexion à la base se trouvent dans un seul fichier.
+	- Menu et gestion des blocs (3 points) (habillage différent de celui de ce TP),
+	- Clarté code (respect W3C) et factorisation (4 points) En particulier : les identifiants de connexion à la base se trouvent dans un seul fichier,
 	- Orthographe (1 point).
-	- Fonctionnalités du site pour l'insertion dans la base ou la consultation (12 points) :
-- Affichage d'informations de la base sur le site et dans un formulaire via un menu select par exemple
-	- Insertion d'informations dans la base à partir du site. Prise en compte de mauvaises saisies.
-	- Difficulté du ou des formulaires créés (informations issues de la base dans un champ select, boutons radio, boites à cocher, ...)
-	- Qualité de l'affichage sur le site des informations issues de la base (tableau, liste, habillage)
+- Fonctionnalités du site pour l'insertion dans la base ou la consultation (12 points) :
+	- Affichage d'informations de la base sur le site et dans un formulaire via un menu select par exemple,
+	- Insertion d'informations dans la base à partir du site. Prise en compte de mauvaises saisies,
+	- Difficulté du ou des formulaires créés (informations issues de la base dans un champ select, boutons radio, boites à cocher, ...),
+	- Qualité de l'affichage sur le site des informations issues de la base (tableau, liste, habillage),
 	- Des informations dans la base peuvent être supprimées depuis le site (delete).
 
 
