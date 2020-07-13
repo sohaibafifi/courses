@@ -108,6 +108,20 @@ module.exports = {
                 }, 
 
                 ]
+            },{
+                title: 'M23 - Administration systèmes',
+                path: '/M23/',
+                collapsable: true,
+                children: [{
+                    title: 'TP',
+                    path: '/M23/TP/',
+                    collapsable: true,
+                    sidebarDepth: 1,
+                    children: [
+                        ['/M23/TP/TP1', 'TP1 Virtualisation'],
+                        ['/M23/TP/TP2', 'TP2 Commandes UNIX'],
+                    ]
+                }]
             }
         ],
 
