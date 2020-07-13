@@ -119,6 +119,7 @@ module.exports = {
                     children: [
                         ['/M23/TP/TP1', 'TP1 Virtualisation'],
                         ['/M23/TP/TP2', 'TP2 Commandes UNIX'],
+                        ['/M23/TP/TP3', 'TP3 Services Réseaux'],
                     ]
                 }]
             }
