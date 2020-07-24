@@ -122,6 +122,16 @@ module.exports = {
                         ['/M23/TP/TP3', 'TP3 Services Réseaux'],
                     ]
                 }]
+            },{
+                title: 'M36 - Services mobiles',
+                path: '/M36/',
+                collapsable: true,
+                children: [{
+                    title: 'Projet',
+                    path: '/M36/Project/',
+                    collapsable: true,
+                    sidebarDepth: 1
+                }]
             }
         ],
 
