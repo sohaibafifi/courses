@@ -81,32 +81,32 @@ module.exports = {
                         ['/M2105/TP/TP2', 'TP2 Introduction au CMS Wordpress'],
                     ]
                 }]
-            // },{
-            //     title: 'M2207 : Consolidation des bases de la programmation',
-            //     path: '/M2207/',
-            //     collapsable: true,
-            //     children: [{
-            //         title: 'CM',
-            //         path: '/M2207/CM/',
-            //         collapsable: true,
-            //         sidebarDepth: 1,
-            //         children: [
-            //             ['/M2207/CM/CM1', 'CM1 - Une introduction à la POO avec Java'],
-            //         ]
-            //     },
-            //     {
-            //         title: 'TP',
-            //         path: '/M2207/TP/',
-            //         collapsable: true,
-            //         sidebarDepth: 1,
-            //         children: [
-            //             ['/M2207/TP/TP1', 'TP1 - Consolidations des bases de la programmation'],
-            //             ['/M2207/TP/TP2', 'TP2 - Création de classes'],
-            //             ['/M2207/TP/TP3', 'TP3 - Introduction à la programmation réseau'],
-            //         ]
-            //     }, 
+             },{
+                title: 'M2207 : Consolidation des bases de la programmation (19-20)',
+                 path: '/M2207/',
+                 collapsable: true,
+                 children: [{
+                     title: 'CM',
+                     path: '/M2207/CM/',
+                     collapsable: true,
+                     sidebarDepth: 1,
+                     children: [
+                       ['/M2207/CM/CM1', 'CM1 - Une introduction à la POO avec Java'],
+                     ]
+                 },
+                 {
+                     title: 'TP',
+                     path: '/M2207/TP/',
+                     collapsable: true,
+                     sidebarDepth: 1,
+                     children: [
+                         ['/M2207/TP/TP1', 'TP1 - Consolidations des bases de la programmation'],
+                         ['/M2207/TP/TP2', 'TP2 - Création de classes'],
+                         ['/M2207/TP/TP3', 'TP3 - Introduction à la programmation réseau'],
+                     ]
+                }, 
 
-            //     ]
+                 ]
             },{
                 title: 'M23 - Administration systèmes',
                 path: '/M23/',
