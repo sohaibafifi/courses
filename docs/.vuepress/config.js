@@ -36,124 +36,124 @@ module.exports = {
         }
     },
     themeConfig: {
-        navbar: true,
+        navbar: false,
         displayAllHeaders: true,
         sidebarDepth: 2,
         lastUpdated: "Dernière modification ",
-        sidebar: [
-            "/", {
-                title: 'M2102-2 : Virtualisation',
-                path: '/M2102-2/',
-                collapsable: true,
-                children: [{
-                    title: 'TP',
-                    path: '/M2102-2/TP/',
-                    collapsable: true,
-                    sidebarDepth: 1,
-                    children: [
-                        ['/M2102-2/TP/TP1', 'TP1 Virtualbox'],
-                        ['/M2102-2/TP/TP2', 'TP2 Docker'],
-                        ['/M2102-2/TP/TP3', 'TP3 VMware ESXi'],
-                        ['/M2102-2/TP/TP4', 'TP4 Comparaison'],
-                    ]
-                }]
-            }, {
-                title: 'M2105 : Web dynamique',
-                path: '/M2105/',
-                collapsable: true,
-                children: [{
-                    title: 'TD',
-                    path: '/M2105/TD/',
-                    collapsable: true,
-                    sidebarDepth: 1,
-                    children: [
-                        ['/M2105/TD/TD1', 'TD1 - Introduction PHP'],
-                        ['/M2105/TD/TD2', 'TD2 - Introduction à PHP avec PostgreSQL'],
-                    ]
-                }, 
-                {
-                    title: 'TP',
-                    path: '/M2105/TP/',
-                    collapsable: true,
-                    sidebarDepth: 1,
-                    children: [
-                        ['/M2105/TP/TP1', 'TP1 Introduction à PHP'],
-                        ['/M2105/TP/TP2', 'TP2 Introduction au CMS Wordpress'],
-                    ]
-                }]
-             },{
-                title: 'M2207 : Consolidation des bases de la programmation (19-20)',
-                 path: '/M2207/',
-                 collapsable: true,
-                 children: [{
-                     title: 'CM',
-                     path: '/M2207/CM/',
-                     collapsable: true,
-                     sidebarDepth: 1,
-                     children: [
-                       ['/M2207/CM/CM1', 'CM1 - Une introduction à la POO avec Java'],
-                     ]
-                 },
-                 {
-                     title: 'TP',
-                     path: '/M2207/TP/',
-                     collapsable: true,
-                     sidebarDepth: 1,
-                     children: [
-                         ['/M2207/TP/TP1', 'TP1 - Consolidations des bases de la programmation'],
-                         ['/M2207/TP/TP2', 'TP2 - Création de classes'],
-                         ['/M2207/TP/TP3', 'TP3 - Introduction à la programmation réseau'],
-                     ]
-                }, 
+        // sidebar: [
+        //     "/", {
+        //         title: 'M2102-2 : Virtualisation',
+        //         path: '/M2102-2/',
+        //         collapsable: true,
+        //         children: [{
+        //             title: 'TP',
+        //             path: '/M2102-2/TP/',
+        //             collapsable: true,
+        //             sidebarDepth: 1,
+        //             children: [
+        //                 ['/M2102-2/TP/TP1', 'TP1 Virtualbox'],
+        //                 ['/M2102-2/TP/TP2', 'TP2 Docker'],
+        //                 ['/M2102-2/TP/TP3', 'TP3 VMware ESXi'],
+        //                 ['/M2102-2/TP/TP4', 'TP4 Comparaison'],
+        //             ]
+        //         }]
+        //     }, {
+        //         title: 'M2105 : Web dynamique',
+        //         path: '/M2105/',
+        //         collapsable: true,
+        //         children: [{
+        //             title: 'TD',
+        //             path: '/M2105/TD/',
+        //             collapsable: true,
+        //             sidebarDepth: 1,
+        //             children: [
+        //                 ['/M2105/TD/TD1', 'TD1 - Introduction PHP'],
+        //                 ['/M2105/TD/TD2', 'TD2 - Introduction à PHP avec PostgreSQL'],
+        //             ]
+        //         }, 
+        //         {
+        //             title: 'TP',
+        //             path: '/M2105/TP/',
+        //             collapsable: true,
+        //             sidebarDepth: 1,
+        //             children: [
+        //                 ['/M2105/TP/TP1', 'TP1 Introduction à PHP'],
+        //                 ['/M2105/TP/TP2', 'TP2 Introduction au CMS Wordpress'],
+        //             ]
+        //         }]
+        //      },{
+        //         title: 'M2207 : Consolidation des bases de la programmation (19-20)',
+        //          path: '/M2207/',
+        //          collapsable: true,
+        //          children: [{
+        //              title: 'CM',
+        //              path: '/M2207/CM/',
+        //              collapsable: true,
+        //              sidebarDepth: 1,
+        //              children: [
+        //                ['/M2207/CM/CM1', 'CM1 - Une introduction à la POO avec Java'],
+        //              ]
+        //          },
+        //          {
+        //              title: 'TP',
+        //              path: '/M2207/TP/',
+        //              collapsable: true,
+        //              sidebarDepth: 1,
+        //              children: [
+        //                  ['/M2207/TP/TP1', 'TP1 - Consolidations des bases de la programmation'],
+        //                  ['/M2207/TP/TP2', 'TP2 - Création de classes'],
+        //                  ['/M2207/TP/TP3', 'TP3 - Introduction à la programmation réseau'],
+        //              ]
+        //         }, 
 
-                 ]
-            },{
-                title: 'M23 - Administration systèmes',
-                path: '/M23/',
-                collapsable: true,
-                children: [{
-                    title: 'CM',
-                    path: '/M23/CM/',
-                    collapsable: true,
-                    sidebarDepth: 1,
-                    children: [
-                        ['/M23/CM/CM1', 'CM1 Commandes UNIX'],
-                        ['/M23/CM/CM2', 'CM2 Virtualisation'],
-                        ['/M23/CM/CM3', 'CM3 Services Réseaux'],
-                    ]
-                }, 
-                {
-                    title: 'TD',
-                    path: '/M23/TD/',
-                    collapsable: true,
-                    sidebarDepth: 1,
-                    children: [
-                        ['/M23/TD/TD1', 'TD1 Commandes UNIX'],
-                    ]
-                }, 
-                {
-                    title: 'TP',
-                    path: '/M23/TP/',
-                    collapsable: true,
-                    sidebarDepth: 1,
-                    children: [
-                        ['/M23/TP/TP1', 'TP1 Commandes UNIX'],
-                        ['/M23/TP/TP2', 'TP2 Virtualisation'],
-                        ['/M23/TP/TP3', 'TP3 Services Réseaux'],
-                    ]
-                }]
-            },{
-                title: 'M36 - Services mobiles',
-                path: '/M36/',
-                collapsable: true,
-                children: [{
-                    title: 'Projet',
-                    path: '/M36/Project/',
-                    collapsable: true,
-                    sidebarDepth: 1
-                }]
-            }
-        ],
+        //          ]
+        //     },{
+        //         title: 'M23 - Administration systèmes',
+        //         path: '/M23/',
+        //         collapsable: true,
+        //         children: [{
+        //             title: 'CM',
+        //             path: '/M23/CM/',
+        //             collapsable: true,
+        //             sidebarDepth: 1,
+        //             children: [
+        //                 ['/M23/CM/CM1', 'CM1 Commandes UNIX'],
+        //                 ['/M23/CM/CM2', 'CM2 Virtualisation'],
+        //                 ['/M23/CM/CM3', 'CM3 Services Réseaux'],
+        //             ]
+        //         }, 
+        //         {
+        //             title: 'TD',
+        //             path: '/M23/TD/',
+        //             collapsable: true,
+        //             sidebarDepth: 1,
+        //             children: [
+        //                 ['/M23/TD/TD1', 'TD1 Commandes UNIX'],
+        //             ]
+        //         }, 
+        //         {
+        //             title: 'TP',
+        //             path: '/M23/TP/',
+        //             collapsable: true,
+        //             sidebarDepth: 1,
+        //             children: [
+        //                 ['/M23/TP/TP1', 'TP1 Commandes UNIX'],
+        //                 ['/M23/TP/TP2', 'TP2 Virtualisation'],
+        //                 ['/M23/TP/TP3', 'TP3 Services Réseaux'],
+        //             ]
+        //         }]
+        //     },{
+        //         title: 'M36 - Services mobiles',
+        //         path: '/M36/',
+        //         collapsable: true,
+        //         children: [{
+        //             title: 'Projet',
+        //             path: '/M36/Project/',
+        //             collapsable: true,
+        //             sidebarDepth: 1
+        //         }]
+        //     }
+        // ],
 
         nav: [{
             text: 'Modules',
