@@ -112,13 +112,33 @@ module.exports = {
                 path: '/M23/',
                 collapsable: true,
                 children: [{
+                    title: 'CM',
+                    path: '/M23/CM/',
+                    collapsable: true,
+                    sidebarDepth: 1,
+                    children: [
+                        ['/M23/CM/CM1', 'CM1 Commandes UNIX'],
+                        ['/M23/CM/CM2', 'CM2 Virtualisation'],
+                        ['/M23/CM/TP3', 'CM3 Services Réseaux'],
+                    ]
+                }, 
+                {
+                    title: 'TD',
+                    path: '/M23/TD/',
+                    collapsable: true,
+                    sidebarDepth: 1,
+                    children: [
+                        ['/M23/TD/TD1', 'TD1 Commandes UNIX'],
+                    ]
+                }, 
+                {
                     title: 'TP',
                     path: '/M23/TP/',
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        ['/M23/TP/TP1', 'TP1 Virtualisation'],
-                        ['/M23/TP/TP2', 'TP2 Commandes UNIX'],
+                        ['/M23/TP/TP1', 'TP1 Commandes UNIX'],
+                        ['/M23/TP/TP2', 'TP2 Virtualisation'],
                         ['/M23/TP/TP3', 'TP3 Services Réseaux'],
                     ]
                 }]
