@@ -119,7 +119,7 @@ module.exports = {
                     children: [
                         ['/M23/CM/CM1', 'CM1 Commandes UNIX'],
                         ['/M23/CM/CM2', 'CM2 Virtualisation'],
-                        ['/M23/CM/TP3', 'CM3 Services Réseaux'],
+                        ['/M23/CM/CM3', 'CM3 Services Réseaux'],
                     ]
                 }, 
                 {
