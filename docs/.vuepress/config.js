@@ -143,6 +143,28 @@ module.exports = {
                     ]
                 }]
             },{
+                title: 'M31 - Outils informatiques',
+                path: '/M31/',
+                collapsable: true,
+                children: [{
+                    title: 'CM',
+                    path: '/M31/CM/',
+                    collapsable: true,
+                    sidebarDepth: 1,
+                    children: [
+                        ['/M31/CM/CM1', 'CM1 scripts'],
+                    ]
+                }, 
+                {
+                    title: 'TD',
+                    path: '/M31/TD/',
+                    collapsable: true,
+                    sidebarDepth: 1,
+                    children: [
+                        ['/M31/TD/TD1', 'TD1 commande awk'],
+                    ]
+                }]
+            },{
                 title: 'M36 - Services mobiles',
                 path: '/M36/',
                 collapsable: true,
