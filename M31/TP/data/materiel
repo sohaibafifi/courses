@@ -1,0 +1,927 @@
+#	ident		# identification
+#	no-ip		# numero IP
+#	hostid		# hostid
+#	sn		# serial number
+#	type		# type de materiel
+#	modele		# modele
+#	config		# configuration
+#	instal		# date d'installation
+#	achat		# fournisseur
+#	maint		# contrat de maintenance
+#	prop		# propriaitaire
+#	util		# utilisateur courant
+#	pos		# lieu d'utilisation
+
+###############################################################################
+
+ident>		brugge
+no-ip>		134.206.10.50
+hostid>		13000b5e
+sn>		
+type>		serveur
+modele>		sun 3/260
+config>		ram 8M, disk 900M externe, eth AUI
+instal>		87
+achat>		
+maint>	
+prop>		lifl
+util>	
+pos>		M3  217
+
+###############################################################################
+
+ident>		oerbier
+no-ip>		134.206.10.22
+hostid>		53002fc3
+sn>		016F1165
+type>		station de travail
+modele>		sun 4/65 SS1+ sun4c (ecran 19"couleur)
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		92
+achat>		sun microsystem bdc Univ 90154774 du 06/90
+maint>		sans
+prop>		equipe graphique
+util>		labo
+pos>		M3  212 
+
+###############################################################################
+
+ident>		blondine
+no-ip>		134.206.10.42
+hostid>		54008589
+sn>		106G2751
+type>		station de travail
+modele>		sun 4/20 SLC sun4c
+config>		ram 12M, disk 207M externe, eth AUI
+instal>		11/03/1991
+achat>		sun microsystem bdc Univ 91/158046 du 18/02/91
+maint>		sun 3 ans jusqu'au 11/03/94
+prop>		equipe graphique
+util>
+pos>		M3  322
+
+###############################################################################
+
+ident>		spendrups
+no-ip>		134.206.10.40
+hostid>		5400858f
+sn>		106G2750
+type>		station de travail
+modele>		sun 4/20 SLC sun4C
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/158046 du 18/02/91
+maint>		sun 3 ans jusqu'au 11/03/94
+prop>		equipe metheol
+util>	
+pos>		M3  308
+
+###############################################################################
+
+ident>		gauloise
+no-ip>		134.206.10.41
+hostid>		54009767
+sn>		105G1880
+type>		station de travail
+modele>		sun 4/20 SLC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/158046 du 18/02/91
+maint>		sun 3 ans jusqu'au 11/03/94
+prop>		equipe goal
+util>		luc courtrai
+pos>		M3  304
+
+###############################################################################
+
+ident>		malibu
+no-ip>		134.206.10.43
+hostid>		54009170
+sn>		106G2768
+type>		station de travail
+modele>		sun 4/20 SLC sun4C
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc CNRS ???????? du 18/02/91
+maint>		sun 3 ans jusqu'au 11/03/94
+prop>		equipe goal
+util>		Anne-Cecille Caron
+pos>		M3  332
+
+###############################################################################
+
+ident>		ms1
+no-ip>		134.206.12.2
+hostid>		?
+sn>		122F3391
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		chimay
+no-ip>		134.206.10.3
+hostid>		52410dbc
+sn>		122F3377
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		equipe goal
+util>		Jean-Francois Mehaut
+pos>		M3  304  
+
+###############################################################################
+
+ident>		ms2
+no-ip>		134.206.12.3
+hostid>		?
+sn>		117M0907
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		ms3
+no-ip>		134.206.12.4
+hostid>		?
+sn>		117M0891
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		ms4
+no-ip>		134.206.12.5
+hostid>		?
+sn>		120F1055
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		orval
+no-ip>		134.206.10.7
+hostid>		52201e2a
+sn>		124F3637
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		equipe paloma
+util>		nadia bennani
+pos>		M3  305 
+
+###############################################################################
+
+ident>		buckler
+no-ip>		134.206.10.39
+hostid>		52200b8d
+sn>		117M0887
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		equipe goal
+util>		jean-marc geib
+pos>		M3  302 
+
+###############################################################################
+
+ident>		jenlain
+no-ip>		134.206.10.5
+hostid>		522013c6
+sn>		122F3368
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		DEA
+util>		labo
+pos>		M3  214 
+
+###############################################################################
+
+ident>		ms5
+no-ip>		134.206.12.6
+hostid>		?
+sn>		120F1019
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		liefman
+no-ip>		134.206.10.12
+hostid>		?
+sn>		117G2246
+type>		station de travail
+modele>		sun 4/20 SLC sun4c
+config>		ram 12M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		paloma
+util>		Gilles Goncalves
+pos>		Eudil  
+
+###############################################################################
+
+ident>		maredsous
+no-ip>		134.206.10.49
+hostid>		?
+sn>		117G2169
+type>		station de travail
+modele>		sun 4/20 SLC sun4c
+config>		ram 12M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		goal
+util>		Abdelghani Atamenia
+pos>		Iut Info  
+
+###############################################################################
+
+ident>		ms6
+no-ip>		134.206.12.7
+hostid>		?
+sn>		116GM0180
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		tripel
+no-ip>		134.206.10.20
+hostid>		5240fdc7
+sn>		119F1467
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		bernard leguy
+pos>		M3  306 
+
+###############################################################################
+
+ident>		ms7
+no-ip>		134.206.12.8
+hostid>		?
+sn>		124F3622
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		ms8
+no-ip>		134.206.12.9
+hostid>		?
+sn>		117M0897
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		choulette
+no-ip>		134.206.10.47
+hostid>		5240a77d
+sn>		114M0730
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		equipe infoto
+util>		Yves Roos
+pos>		M3  336 
+
+###############################################################################
+
+ident>		ms9
+no-ip>		134.206.12.10
+hostid>		?
+sn>		117M0910
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		ms10
+no-ip>		134.206.12.11
+hostid>		?
+sn>		122F3402
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		troismonts
+no-ip>		134.206.10.48
+hostid>		52200df0
+sn>		117M0886
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		
+util>
+pos>		M3  316 
+
+###############################################################################
+
+ident>		becasse
+no-ip>		134.206.10.45
+hostid>		52201453
+sn>		117M0912
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M interne, eth AUI
+instal>		01/10/91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		equipe technique
+util>		Gilles Carin
+pos>		M3  216
+
+###############################################################################
+
+ident>		guiness
+no-ip>		134.206.10.
+hostid>		52200893
+sn>		116M0175
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>	
+util>
+pos>		M3  308  
+
+###############################################################################
+
+ident>		ms11
+no-ip>		134.206.12.12
+hostid>		?
+sn>		122F2970
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		rochefort
+no-ip>		134.206.10.19
+hostid>		5240f45b
+sn>		120F0842
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		equipe technique
+util>		bernard szelag
+pos>		M3  216  
+
+###############################################################################
+
+ident>		ms12
+no-ip>		134.206.12.13
+hostid>		?
+sn>		120F1080
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		ms13
+no-ip>		134.206.12.14
+hostid>		?
+sn>		120F1067
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		ms14
+no-ip>		134.206.12.15
+hostid>		?
+sn>		117M0905
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		gueuze
+no-ip>		134.206.10.4
+hostid>		522011f5
+sn>		117M0888
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		equipe paloma
+util>		Marie-Paule Lecouffe
+pos>		M3  303  
+
+###############################################################################
+
+ident>		ms15
+no-ip>		134.206.12.16
+hostid>		?
+sn>		117M0903
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		enseignement
+util>		etudiants 2ieme cycle
+pos>		M3  salle TP RdC  
+
+###############################################################################
+
+ident>		rijsel
+no-ip>		134.206.10.27
+hostid>		522009c2
+sn>		115M0182
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		sun microsystem bdc Univ 91/903.03
+maint>		sun 3 ans jusqu'au 01/10/94
+prop>		DEA
+util>		labo
+pos>		M3  214 
+
+###############################################################################
+
+ident>		lifl
+no-ip>		134.206.10.18
+hostid>		71400afd
+sn>		141K0011
+type>		serveur
+modele>		sun 4/670MP sun4m
+config>		ram 64M, disk
+instal>		6/1/92
+achat>		sun microsystem bdc CNRS 91.18.03
+maint>		sun 3 ans jusqu'au 6/1/95
+prop>		lifl
+util>		
+pos>		M3  217 
+
+###############################################################################
+
+ident>		aulne
+no-ip>		134.206.10.13
+hostid>		56011cb4
+sn>		204ED0849
+type>		station de travail
+modele>		sun 4/25 ELC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		28/04/92
+achat>		ista lille, bdc Univ 175642 du 03/04/92
+maint>		?(machine gratuite)
+prop>		equipe technique
+util>		Fred Hemery
+pos>		M3  216
+
+###############################################################################
+
+ident>		bass 
+no-ip>		134.206.10.59
+hostid>		56012ba1
+sn>		209ED0210
+type>		station de travail
+modele>		sun 4/25 ELC sun4c
+config>		ram 12M, disk 207M externe, eth AUI
+instal>		28/04/92
+achat>		ista lille
+maint>		sans
+prop>		equipe graphique
+util>		labo
+pos>		M3  212
+
+###############################################################################
+
+ident>		brigant
+no-ip>		134.206.10.65
+hostid>		5601261a
+sn>		207ED0489
+type>		station de travail
+modele>		sun 4/25 ELC sun4c
+config>		ram 12M, disk 207M externe, eth AUI
+instal>		92
+achat>		
+maint>	
+prop>		equipe meteol
+util>		Christophe Routier
+pos>		M3  311
+
+###############################################################################
+
+ident>		brunehaut
+no-ip>		134.206.10.55
+hostid>		56011df2
+sn>		204ED0702
+type>		station de travail
+modele>		sun 4/25 ELC sun4C
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		
+maint>	
+prop>		equipe goal
+util>		lenneke dekker
+pos>		M3  302
+
+###############################################################################
+
+ident>		jade
+no-ip>		134.206.10.51
+hostid>		560121e8
+sn>		209ED0288
+type>		station de travail
+modele>		sun 4/25 ELC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		
+maint>	
+prop>	
+util>
+pos>		M3  310
+
+###############################################################################
+
+ident>		pucelle
+no-ip>		134.206.10.52
+hostid>		5601ad74
+sn>		249ED0413
+type>		station de travail
+modele>		sun 4/25 ELC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		
+maint>			
+prop>		DEA
+util>		labo
+pos>		M3  214
+
+###############################################################################
+
+ident>		naiade
+no-ip>		134.206.10.53
+hostid>		56014007
+sn>		
+type>		station de travail
+modele>		sun 4/25 ELC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		
+maint>	
+prop>		equipe goal
+util>		bernard carre
+pos>		M3  302
+
+###############################################################################
+
+ident>		chouffe
+no-ip>		134.206.10.54
+hostid>		56011f75
+sn>		204ED0702
+type>		station de travail
+modele>		sun 4/25 ELC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		
+maint>	
+prop>	
+util>		cyril dumoulin
+pos>		M3  304
+
+###############################################################################
+
+ident>		rodenbach
+no-ip>		134.206.10.56
+hostid>		522042fe
+sn>		206M2220
+type>		station de travail
+modele>		sun 4/40 IPC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		
+maint>	
+prop>	
+util>		
+pos>		M3  320
+
+###############################################################################
+
+ident>		westmale
+no-ip>		134.206.10.57
+hostid>		5601239e
+sn>		209ED0251
+type>		station de travail
+modele>		sun 4/25 ELC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>	
+achat>		91	
+maint>	
+prop>	
+util>
+pos>		M3 309		
+
+###############################################################################
+	
+ident>		urtyup
+no-ip>		134.206.10.58
+hostid>		56011bda
+sn>		206ED0193
+type>		station de travail
+modele>		sun 4/25 ELC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		
+maint>	
+prop>		equipe graphique						
+util>		labo
+pos>		M3 212 
+
+###############################################################################
+
+ident>		lutece
+no-ip>		134.206.10.61
+hostid>		55415689
+sn>		130F0985
+type>		station de travail
+modele>		sun 4/75 SS2 sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		
+maint>	
+prop>		equipe graphique
+util>		labo
+pos>		M3  212
+
+###############################################################################
+
+ident>		saison
+no-ip>		134.206.10.62
+hostid>		56012014
+sn>		204ED0881
+type>		station de travail
+modele>		sun 4/25 ELC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>	
+achat>		
+maint>	
+prop>		equipe graphique
+util>		labo
+pos>		M3 212 
+
+###############################################################################
+
+ident>		feuillien
+no-ip>		134.206.10.63
+hostid>		56012557
+sn>		204ED0896
+type>		station de travail
+modele>		sun 4/25 ELC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		
+maint>	
+prop>	
+util>		mireille clerbout
+pos>		M3  312 
+
+###############################################################################
+
+ident>		sixtus
+no-ip>		134.206.10.64
+hostid>		5601a7d5
+sn>		250ED0132
+type>		station de travail
+modele>		sun 4/25 ELC sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		
+maint>	
+prop>		DEA
+util>		labo
+pos>		M3  214 
+
+###############################################################################
+
+ident>		seybrew
+no-ip>		134.206.10.67
+hostid>		55413ad6
+sn>		127F3196
+type>		station de travail
+modele>		sun 4/75 SS2 sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		
+maint>	
+prop>		equipe graphique
+util>		labo
+pos>		M3  212  
+
+###############################################################################
+
+ident>		ciney
+no-ip>		134.206.10.44
+hostid>		52201a47
+sn>		120M0408
+type>		station de travail
+modele>		sun 4/40 IPC sun4c (ecran 19")
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		par le greco-prog
+maint>		sans
+prop>		metheol
+util>		Philippe Mathieu
+pos>		M3  308 
+
+###############################################################################
+
+ident>		budweiser
+no-ip>		134.206.10.21
+hostid>		5721830a
+sn>		302M1242
+type>		station de travail
+modele>		sun 4/45 IPX sun4c (ecran 16"couleur)
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		
+maint>	
+prop>	
+util>
+pos>		M3  311 
+
+###############################################################################
+
+ident>		gordon
+no-ip>		134.206.10.66
+hostid>		5542382e
+sn>		205F2891
+type>		station de travail
+modele>		sun 4/75 SS2 sun4c (32M.424M.1,3G.1,3G.)
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		91
+achat>		
+maint>	
+prop>	
+util>		labo
+pos>		M3  212 
+
+###############################################################################
+
+ident>		affligem
+no-ip>		134.206.10.1
+hostid>		8002263f
+sn>		310M1385
+type>		station de travail
+modele>		sun 4/15 classic sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		92
+achat>		
+maint>	
+prop>	
+util>
+pos>		M3  304 
+
+###############################################################################
+
+ident>		gambrinus
+no-ip>		134.206.10.73
+hostid>		90023d7f
+sn>		311M2103
+type>		station de travail
+modele>		sun 4/30 LX sun4c
+config>		ram 16M, disk 207M externe, eth AUI
+instal>		93
+achat>		
+maint>	
+prop>		equipe graphique
+util>		samuel degrande
+pos>		M3  320
+
+###############################################################################
