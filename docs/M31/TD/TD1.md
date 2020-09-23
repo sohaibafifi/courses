@@ -12,37 +12,43 @@ du langage C.
 
 **Syntaxe**: 
 
-```awk 'instructions' fichiers_cibles
-```		
-```cmd | awk 'instructions'
 ```
-```awk -f fichierInstructions fichiers_cibles```
+awk 'instructions' fichiers_cibles
+```		
+
+```
+cmd | awk 'instructions'
+```
+
+```
+awk -f fichierInstructions fichiers_cibles
+```
 
 **3 sections** : 
 	
-    - le avant : instructions exécutées avant le parcours du fichier
-			```BEGIN {}```
-	
-    - le pendant : instructions exécutées pour chaque enregistrement (ligne) du fichier
-	
-    - l'après : instructions exécutées après le parcours du fichier
-			```END {}```
+- le avant : instructions exécutées avant le parcours du fichier
+        ```BEGIN {}```
+
+- le pendant : instructions exécutées pour chaque enregistrement (ligne) du fichier
+
+- l'après : instructions exécutées après le parcours du fichier
+        ```END {}```
 
 Les variables prédéfinies : 
 	
-    - ```FS```: Field Separator (séparateur de champs)
-	
-    - ```OFS``` : Output Field Separator
-	
-    - ```NF```: le nombre de champs
-	
-    - ```NR```: numero de l'enregistrement courant
-	
-    - ```$0```: ligne entière
-	
-    - ```$1```: 1er champ
-	
-    - ```$NF``` : le dernier champ
+- ```FS```: Field Separator (séparateur de champs)
+
+- ```OFS``` : Output Field Separator
+
+- ```NF```: le nombre de champs
+
+- ```NR```: numero de l'enregistrement courant
+
+- ```$0```: ligne entière
+
+- ```$1```: 1er champ
+
+- ```$NF``` : le dernier champ
 
 
 

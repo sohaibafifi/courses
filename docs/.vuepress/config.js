@@ -163,6 +163,15 @@ module.exports = {
                     children: [
                         ['/M31/TD/TD1', 'TD1 commande awk'],
                     ]
+                }, 
+                {
+                    title: 'TP',
+                    path: '/M31/TP/',
+                    collapsable: true,
+                    sidebarDepth: 1,
+                    children: [
+                        ['/M31/TP/TP1', 'TP1 commande awk'],
+                    ]
                 }]
             },{
                 title: 'M36 - Services mobiles',
