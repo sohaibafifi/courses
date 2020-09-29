@@ -108,6 +108,31 @@ module.exports = {
 
                  ]
             },{
+                title: 'M3210C : Programmation avancée',
+                 path: '/M3210C/',
+                 collapsable: true,
+                 children: [{
+                     title: 'CM',
+                     path: '/M3210C/CM/',
+                     collapsable: true,
+                     sidebarDepth: 1,
+                     children: [
+                        ['/M3210C/CM/CM1', 'CM1 - Rappels sur la POO avec Java'],
+                        ['/M3210C/CM/CM2', 'CM2 - La POO - suite'],
+                    ]
+                 },
+                 {
+                     title: 'TP',
+                     path: '/M3210C/TP/',
+                     collapsable: true,
+                     sidebarDepth: 1,
+                     children: [
+                         ['/M3210C/TP/TP1', 'TP1 - Programmation OO'],
+                     ]
+                }, 
+
+                 ]
+            },{
                 title: 'M23 - Administration systèmes',
                 path: '/M23/',
                 collapsable: true,
