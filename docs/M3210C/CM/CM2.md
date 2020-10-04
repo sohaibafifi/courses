@@ -664,3 +664,36 @@ Pour mettre à jour la pile d'appel d'une exception pré-existante (réutilisati
 ## Types génériques
 
 Les **génériques** (de l'anglais *generics*) sont des classes qui sont typés au moment de la compilation. Autrement dit, ce sont des classes qui utilisent des typages en paramètres. Ainsi une liste chainée, qui peut contenir des entiers, des chaines ou autres, pourra être typée en liste de chaines ou liste d'entiers, et ceci permettra au programmeur de ne pas écrire systématiquement des transtypages, méthode qui pourrait s'avérer dangereuse, ce sera le compilateur qui vérifiera la cohérence des données.
+
+
+**Exemple :**
+
+```java 
+public class Famille < MaClasse >
+{
+	private LinkedList < MaClasse > liste;
+
+	public setMembre(MaClasse m)
+	{
+		liste.add(m);
+	}
+
+	public MaClasse getMembre(int i)
+	{
+		return liste.get(i);
+	}
+
+	public Integer getInt(int i)     //première erreur
+	{
+		return liste.get(i);
+	}
+}
+```
+
+**Utilisation :**
+
+```java
+Famille<String> famille = new Famille<String>();
+famille.setMembre("essai");
+famille.setMembre(210);          //seconde erreur
+```
