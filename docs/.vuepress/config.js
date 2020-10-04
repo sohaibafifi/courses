@@ -2,7 +2,7 @@ const moment = require('moment');
 module.exports = {
     title: 'Cours - Sohaib LAFIFI',
     description: '',
-    base:'/courses/',
+    base:'/',
     plugins: [
         ['@vuepress/back-to-top', true],
         [
