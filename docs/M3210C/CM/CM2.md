@@ -547,6 +547,29 @@ Toute autre exception non capturée (telle ```IOException```) est transmise à l
 ### Classes et sous-classes d'exception
 L'héritage entre les classes d'exceptions peut conduire à des erreurs de programmation. En effet, une instance d'une sous-classe est également considérée comme une instance de la classe de base.
 
+En Java, toute erreur lors d'une instruction génère un OBJET exception. Cet objet est une instance d'une classe qui hérite de la classe ```Throwable```.
+
+ci-dessous un extrait de la hiérarchie de classes d'exceptions ci-dessous :  
+
+- class java.lang.Throwable
+    - class java.lang.Error
+        - class java.lang.LinkageError
+        - class java.lang.VirtualMachineError
+    - class java.lang.Exception
+        - class java.lang.ClassNotFoundException
+        - class java.util.zip.DataFormatException
+        - class java.io.IOException
+        - class java.lang.RuntimeException
+            - class java.lang.ArithmeticException
+            - class java.lang.ClassCastException
+            - class java.lang.IllegalArgumentException
+                - class java.lang.NumberFormatException
+            - class java.lang.IndexOutOfBoundsException
+                - class java.lang.ArrayIndexOutOfBoundsException
+                - class java.lang.StringIndexOutOfBoundsException
+            - class java.lang.NullPointerException
+
+
 #### Ordre des blocs catch :
 **L'ordre des blocs catch est important** : il faut placer les sous-classes avant leur classe de base. Dans le cas contraire le compilateur génère l'erreur exception classe_exception has already been caught.
 
@@ -587,6 +610,7 @@ L'ordre correct est le suivant :
 
 #### Sous-classes et clause throws
 Une autre source de problèmes avec les sous-classes d'exception est la clause throws. Ce problème n'est pas détecté à la compilation.
+
 
 **Exemple :**
 
@@ -661,6 +685,29 @@ Pour mettre à jour la pile d'appel d'une exception pré-existante (réutilisati
 ```
 
 
+### Définir ses propres exceptions
+
+Il est possible de créer applications vos propres classes d'exception. La nouvelle classe d'exception créée doit obligatoirement hériter de la classe ```Exception``` de Java ou d'une de ses sous-classes plus spécifiques.
+
+La structure de votre nouvelle classe d'exception doit au moins posséder un des deux constructeurs:
+
+- un sans paramètre
+
+- un avec un paramètre de type ```String``` correspondant au message associé à l'erreur générée.
+
+Exemple de déclaration d'une nouvelle classe d'exception
+
+```java
+class MaClasseException extends Exception{
+      MaClasseException(){
+             super();
+      }
+ 
+      MaClasseException(String monMessage){
+             super(monMessage);
+      }
+```
+
 ## Types génériques
 
 Les **génériques** (de l'anglais *generics*) sont des classes qui sont typés au moment de la compilation. Autrement dit, ce sont des classes qui utilisent des typages en paramètres. Ainsi une liste chainée, qui peut contenir des entiers, des chaines ou autres, pourra être typée en liste de chaines ou liste d'entiers, et ceci permettra au programmeur de ne pas écrire systématiquement des transtypages, méthode qui pourrait s'avérer dangereuse, ce sera le compilateur qui vérifiera la cohérence des données.
@@ -697,3 +744,50 @@ Famille<String> famille = new Famille<String>();
 famille.setMembre("essai");
 famille.setMembre(210);          //seconde erreur
 ```
+
+
+## Exercice - Pokémon 
+
+Les Pokémon sont certes de très mignonnes créatures, mais ils sont également un bon exemple pour illustrer l’héritage. Je vous propose donc de commencer par créer une classe Pokemon qui contient (entre autres) :
+
+- un attribut ```nom``` qui représente le nom du Pokémon.
+
+- un attribut ```hp``` (pour Health Points) qui représente les points de vie du Poké-
+mon.
+
+- un attribut qui s’appelle ```atk``` qui représente la force de base de l’attaque du
+Pokémon.
+
+- un constructeur pour instancier des Pokémon adéquatement.
+
+- des getters (accesseurs) qui permettent de consulter les attributs du Pokémon.
+
+- une méthode ```isDead()``` qui retourne un ```boolean``` pour indiquer si un Pokémon
+est mort (```hp == 0```) ou non.
+
+- une méthode ```attaquer(Pokemon p)``` qui permet au Pokémon appelant d’atta-
+quer le Pokémon passé en paramètre. L’attaque déduit ```atk``` points de la vie hp
+du Pokémon attaqué ```p```.
+
+- une redéfinition de la méthode ```toString``` qui affiche les informations du Poké-
+mon.
+
+En plus des Pokémon normaux (décrits à travers la classe ```Pokemon```) on ressence trois types de Pokémon. 
+Les Pokémon de type **Feu**, les Pokémon de type **Eau** et les Pokémon de type **Plante** (en réalité il existe 17 types en tout mais on ne va pas s’amuser à tous les coder) :
+
+
+
+- les Pokémon de type Feu sont super efficaces contre les Pokémon de type Plante et leur infligent deux fois plus de dégâts (```2*atk```). Par contre, ils sont très peu efficaces contre les Pokémon de type Eau ou de type Feu et ne leur infligent que la moitié des dégâts (```0.5*atk```). Ils infligent des dégâts normaux
+aux Pokémon de type Normal.
+
+- les Pokémon de type Eau sont super efficaces contre les Pokémon de type
+Feu et leur infligent deux fois plus de dégâts (```2*atk```). Par contre, ils sont très peu efficaces contre les Pokémon de type Eau ou de type Plante et ne leur infligent que la moitié des dégâts (```0.5*atk```). Ils infligent des dégâts normaux aux Pokémon de type Normal.
+
+- enfin, les Pokémon de type Plante sont super efficaces contre les Pokémon de type Eau et leur infligent deux fois plus de dégâts (```2*atk```). Par contre, ils sont très peu efficaces contre les Pokémon de type Plante ou de type Feu et ne leur infligent que la moitié des dégâts (```0.5*atk```). Ils infligent des dégâts normaux aux Pokémon de type Normal.
+
+Créez trois classes ```PokemonFeu```, ```PokemonEau``` et ```PokemonPlante``` qui héritent de la classe ```Pokemon``` et qui représentent les trois types de Pokémon susmentionnés. En suite, amusez-vous à faire des combats de Pokémon.
+
+:::tip Remarque -  Connaitre le nom de la classe d’un objet
+
+Afin de connaitre la classe à laquelle un objet o appartient, vous pouvez utiliser la méthode ```getClass()``` (appel : ```o.getClasse()```). Pour connaitre le nom de cette classe, vous pouvez utiliser la méthode ```getName()``` (```o.getClass().getName()```) qui retourne le nom complet de la classe (y compris le nom du package auquel elle appartient) ou la méthode ```getSimpleName()``` (```o.getClass().getSimpleName()```) qui retourne seulement le nom de la classe sans le nom du package.
+:::

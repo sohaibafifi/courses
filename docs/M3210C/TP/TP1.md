@@ -18,7 +18,7 @@ Réalisez un programme Java `Piece.java` en charge simuler le lancement d'une pi
 `Math.random()` va vous aider (cf **TP n°4 M1207**).
 :::
 :::tip
-Travaillez dans votre répertoire `M2207/TP1`.
+Travaillez dans votre répertoire `M3210C/TP1`.
 :::
 :::tip Rappel 
 il suffit de créer un générateur de nombre qui est un objet de la classe Random
@@ -159,7 +159,7 @@ public static String ligneCases(int n, int nbc, boolean e) {
 - Testez les classes du cours si vous ne l'avez pas fait. Ce sont les classes [`Voiture.java`](../code/Voiture.java), [`TestVoiture.java`](../code/TestVoiture.java), [`Personne.java`](../code/Personne.java), [`Etudiant.java`](../code/Etudiant.java), [`Enseignant.java`](../code/Enseignant.java) et [`TestPersonneEtudiantEnseignant.java`](../code/TestPersonneEtudiantEnseignant.java).
 
 :::tip
-Travaillez dans votre répertoire `M2207/TP2`
+Travaillez dans votre répertoire `M3210C/TP2`
 :::
 
 
