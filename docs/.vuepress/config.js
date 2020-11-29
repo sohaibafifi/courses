@@ -130,6 +130,7 @@ module.exports = {
                         ['/M3210C/TP/TP1', 'TP1 - Programmation OO'],
                         ['/M3210C/TP/TP2', 'TP2 - Programmation OO suite'],
                         ['/M3210C/TP/TP3', 'TP3 - Introduction aux threads'],
+                        ['/M3210C/TP/TP4', 'TP4 - Introduction aux sockets'],
                     ]
                 }, 
 
