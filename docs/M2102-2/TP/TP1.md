@@ -72,13 +72,15 @@ la machine invité.
 ::: tip Si vous êtes à l'IUT : 
  -   Configurez apt-get pour passer par le proxy en créant le fichier ```/etc/apt/apt.conf.d/proxy``` : 
 ```
-        Acquire::http::Proxy "http://cache-etu.univ-artois.fr:3128/"; 
+Acquire::http::Proxy "http://cache-etu.univ-artois.fr:3128/"; 
 ```
 
 <!-- -   Pour faire les tests de performance, on va utiliser deux machines (une avec une connexion de type NAT et une autre en pont (avec une adresse MAC connue par le serveur dhcp, ```08:00:27:00:03:XX``` (XX est votre numéro) !)). Créez une nouvelle machine Ubuntu2 en faisant un  clone de la première. Mais **avant** installez l'outil iperf dont le manuel d'utilisation est ici <http://openmaniak.com/iperf.php>. Quel est le débit obtenu en mode NAT et en mode bridge ? Quelle configuration d'iperf avez-vous utilisez ? -->
 :::
 
--   Pour faire les tests de performance, on va utiliser deux machines (une avec une connexion de type NAT et une autre en pont. Créez une nouvelle machine Ubuntu2 en faisant un  clone de la première. Mais **avant** installez l'outil iperf dont le manuel d'utilisation est ici <http://openmaniak.com/iperf.php>. Quel est le débit obtenu en mode NAT et en mode bridge ? Quelle configuration d'iperf avez-vous utilisez ? Apporter ces résultats sur [moodle](https://moodle.univ-artois.fr/cours/mod/questionnaire/view.php?id=107504).
+-   Pour faire les tests de performance, on va utiliser deux machines (une avec une connexion de type NAT et une autre en pont. Créez une nouvelle machine Ubuntu2 en faisant un  clone de la première. Mais **avant** installez avec apt l'outil iperf dont le manuel d'utilisation est ici <http://openmaniak.com/iperf.php>. 
+
+- En utilisant le même serveur choisi sur [https://iperf.fr/iperf-servers.php](https://iperf.fr/iperf-servers.php). Quel est le débit obtenu en mode NAT et en mode bridge ? Quelle configuration d'iperf avez-vous utilisez ? Apporter ces résultats sur [moodle](https://moodle.univ-artois.fr/cours/mod/questionnaire/view.php?id=107504).
 
 ::: danger Si vous êtes à l'IUT 
 
@@ -96,6 +98,8 @@ Nous allons faire tourner un benchmark en lui faisant tester la vitesse d'excéc
      
 2.  Faites tourner le benchmark en lui faisant tester la vitesse  d'excécution d'un programme effectuant 10000 calculs dans une seule thread à l'aide de la commande suivante :\
 
-        sysbench --test=cpu --cpu-max-prime=10000 --num-threads=1 run | grep "total time:"
- 
+```
+sysbench --test=cpu --cpu-max-prime=10000 --num-threads=1 run | grep "total time:"
+ ```
+
 3. Si il a N cœurs à sa disposition et N threads, chaque thread fera  10000/N calculs donc le temps total est divisé par N.  Comparez en les commantant les performances dans la machine    virtuelle et dans la machine physique.
