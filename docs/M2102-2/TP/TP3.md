@@ -9,6 +9,10 @@ sidebarDepth: 1
 
 # VMware ESXi
 
+::: danger 
+
+Ce TP se fait uniquement en présentiel à l'IUT.
+:::
 
 VMware ESXi est un hyperviseur de type 1 indépendant des systèmes d'exploitation. Il repose lui-même sur le système d'exploitation VMkernel qui assure directement l'interface avec les agents VMware et les modules tiers agréés. Les administrateurs chargés de la virtualisation peuvent configurer VMware ESXi via sa console, le client VMware vSphere ou son interface web.
 

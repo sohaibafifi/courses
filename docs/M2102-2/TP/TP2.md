@@ -13,6 +13,8 @@ sidebarDepth: 1
 Docker fait partie des dépôts officiels à partir d’Ubuntu. Il suffit donc d'installer le paquet **```docker.io```**. Puis démarrez le service avec : ```systemctl start docker```.
 
 
+::: danger Si vous êtes à l'IUT :
+
 Docker cherche les images en local dans un premier temps. Si l'image n'existe pas il va alors tenter de télécharger la dernière version à partir du docker store (le hub). Puisque l’IUT utilise un proxy, il faut l’indiquer à Docker. Pour cela, il faut créer le répertoire suivant :
 
 
@@ -28,6 +30,7 @@ Il faut ensuite redémarrer docker :
 
 	systemctl daemon-reload
 	systemctl restart docker
+:::
 
 ## Utilisation
 

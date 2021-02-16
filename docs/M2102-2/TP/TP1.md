@@ -19,7 +19,9 @@ La documentation de référence de virtualbox se trouve ici :
 
 **Travail préliminaire :**
 
--   Monter le serveur nas du département dans votre arborescence : ``` mount -t nfs rt-nas:/mnt/distvm /srv/nas``` 
+<!-- -   Monter le serveur nas du département dans votre arborescence : ``` mount -t nfs rt-nas:/mnt/distvm /srv/nas```  -->
+
+- Télécharger d'abord l'image iso ubuntu sur [https://ubuntu.daupheus.com/20.04.2.0/ubuntu-20.04.2.0-desktop-amd64.iso](https://ubuntu.daupheus.com/20.04.2.0/ubuntu-20.04.2.0-desktop-amd64.iso). Si vous êtes à l'IUT, monter le serveur nas du département dans votre arborescence : ``` mount -t nfs rt-nas:/mnt/distvm /srv/nas```. L'image se trouvera donc sur ``` /srv/nas/```.
 
 1.  Installez la dernière version Oracle de **virtualbox** ainsi que  **le pack d'extension**. Pour plus d'informations consulter la section 3 sur [cette page](http://doc.ubuntu-fr.org/virtualbox).
 2.  Pour créer une machine virtuelle, il faut spécifier à Virtualbox ses caractéristiques. Lancez Virtualbox et créez une machine virtuelle en utilisant l'interface graphique avec les paramètres suivants :
@@ -30,9 +32,10 @@ La documentation de référence de virtualbox se trouve ici :
 
 3.  A partir de la commande file (faire un man pour interpréter les valeurs) et en inspectant les fichiers textes, indiquez quels fichiers ont été créés sur le disque, quel est leur type (binaire,  ascii) ainsi que leur rôle ? .
 4.  Quelle est la taille actuelle du disque virtuel sur le disque ? Cela correspond-il au paramétrage ?
-5.  Editez les paramètres de votre machine. Dans l'onglet « Stockage »,  ajoutez un disque CD/ROM virtuel pointant sur l'ISO de la dernière version de ubuntu qui se trouve sur ``` /srv/nas/``` .  Bootez et faites une installation classique en créant un utilisateur primaire user.
+<!-- 5.  Editez les paramètres de votre machine. Dans l'onglet « Stockage »,  ajoutez un disque CD/ROM virtuel pointant sur l'ISO de la dernière version de ubuntu qui se trouve sur ``` /srv/nas/``` .  Bootez et faites une installation classique en créant un utilisateur primaire user. -->
+5.  Editez les paramètres de votre machine. Dans l'onglet « Stockage »,  ajoutez un disque CD/ROM virtuel pointant sur l'ISO que vous venez de télécharger.  Bootez et faites une installation classique en créant un utilisateur primaire user.
 
-*Installer complètement une VM est aussi long qu'installer une  machine physique. En parallèle passez à la partie [Docker](#docker).*
+<!-- *Installer complètement une VM est aussi long qu'installer une  machine physique. En parallèle passez à la partie [Docker](#docker).* -->
 
 ## Les Additions invité
 
@@ -65,11 +68,25 @@ la machine invité.
 
 4. Etudions maintenant le type d'interconnexion réseau de la machine. Nous allons maintenant comparer les performances réseaux des modes **NAT** et **pont (bridge)**.
 
--   Configurez apt-get pour passer par le proxy en créant le fichier ```/etc/apt/apt.conf.d/proxy``` : 
 
-        Acquire::http::Proxy "http://cache-etu.univ-artois.fr:3128/";
+::: tip Si vous êtes à l'IUT : 
+ -   Configurez apt-get pour passer par le proxy en créant le fichier ```/etc/apt/apt.conf.d/proxy``` : 
+```
+        Acquire::http::Proxy "http://cache-etu.univ-artois.fr:3128/"; 
+```
 
--   Pour faire les tests de performance, on va utiliser deux machines (une avec une connexion de type NAT et une autre en pont (avec une adresse MAC connue par le serveur dhcp, ```08:00:27:00:03:XX``` (XX est votre numéro) !)). Créez une nouvelle machine Ubuntu2 en faisant un  clone de la première. Mais **avant** installez l'outil iperf dont le manuel d'utilisation est ici <http://openmaniak.com/iperf.php>. Quel est le débit obtenu en mode NAT et en mode bridge ? Quelle configuration d'iperf avez-vous utilisez ?
+<!-- -   Pour faire les tests de performance, on va utiliser deux machines (une avec une connexion de type NAT et une autre en pont (avec une adresse MAC connue par le serveur dhcp, ```08:00:27:00:03:XX``` (XX est votre numéro) !)). Créez une nouvelle machine Ubuntu2 en faisant un  clone de la première. Mais **avant** installez l'outil iperf dont le manuel d'utilisation est ici <http://openmaniak.com/iperf.php>. Quel est le débit obtenu en mode NAT et en mode bridge ? Quelle configuration d'iperf avez-vous utilisez ? -->
+:::
+
+-   Pour faire les tests de performance, on va utiliser deux machines (une avec une connexion de type NAT et une autre en pont. Créez une nouvelle machine Ubuntu2 en faisant un  clone de la première. Mais **avant** installez l'outil iperf dont le manuel d'utilisation est ici <http://openmaniak.com/iperf.php>. Quel est le débit obtenu en mode NAT et en mode bridge ? Quelle configuration d'iperf avez-vous utilisez ? Apporter ces résultats sur moodle.
+
+::: danger Si vous êtes à l'IUT 
+
+L'interface crée en NAT doit avoir une adresse MAC reconnue par le serveur DHCP.  
+
+Il faut mettre donc : ```08:00:27:00:03:XX``` (XX est votre numéro) 
+:::
+
 
 ## Performances CPU
 
