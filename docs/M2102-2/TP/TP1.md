@@ -23,7 +23,7 @@ La documentation de référence de virtualbox se trouve ici :
 
 - Télécharger d'abord l'image iso ubuntu sur [https://ubuntu.daupheus.com/20.04.2.0/ubuntu-20.04.2.0-desktop-amd64.iso](https://ubuntu.daupheus.com/20.04.2.0/ubuntu-20.04.2.0-desktop-amd64.iso). Si vous êtes à l'IUT, monter le serveur nas du département dans votre arborescence : ``` mount -t nfs rt-nas:/mnt/distvm /srv/nas```. L'image se trouvera donc sur ``` /srv/nas/```.
 
-1.  Installez la dernière version Oracle de **virtualbox** ainsi que  **le pack d'extension**. Pour plus d'informations consulter la section 3 sur [cette page](http://doc.ubuntu-fr.org/virtualbox).
+1.  Installez **virtualbox** ainsi que  **le pack d'extension**. Pour plus d'informations consulter la section 3 sur [cette page](http://doc.ubuntu-fr.org/virtualbox).
 2.  Pour créer une machine virtuelle, il faut spécifier à Virtualbox ses caractéristiques. Lancez Virtualbox et créez une machine virtuelle en utilisant l'interface graphique avec les paramètres suivants :
 	- Nom : Ubuntu1
 	- Type : Ubuntu Linux 64 bits
