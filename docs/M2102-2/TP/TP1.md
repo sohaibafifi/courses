@@ -80,7 +80,7 @@ Acquire::http::Proxy "http://cache-etu.univ-artois.fr:3128/";
 
 -   Pour faire les tests de performance, on va utiliser deux machines (une avec une connexion de type NAT et une autre en pont. Créez une nouvelle machine Ubuntu2 en faisant un  clone de la première. Mais **avant** installez avec apt l'outil iperf dont le manuel d'utilisation est ici <http://openmaniak.com/iperf.php>. 
 
-- En utilisant le même serveur choisi sur [https://iperf.fr/iperf-servers.php](https://iperf.fr/iperf-servers.php). Quel est le débit obtenu en mode NAT et en mode bridge ? Quelle configuration d'iperf avez-vous utilisez ? Apporter ces résultats sur [moodle](https://moodle.univ-artois.fr/cours/mod/questionnaire/view.php?id=107504).
+- En utilisant le même serveur choisi sur [https://iperf.fr/iperf-servers.php](https://iperf.fr/iperf-servers.php), ```ping.online.net``` par exemple. Quel est le débit obtenu en mode NAT et en mode bridge ? Quelle configuration d'iperf avez-vous utilisez ? Apporter ces résultats sur [moodle](https://moodle.univ-artois.fr/cours/mod/questionnaire/view.php?id=107504).
 
 ::: danger Si vous êtes à l'IUT 
 
