@@ -78,7 +78,7 @@ la machine invité.
 <!-- -   Pour faire les tests de performance, on va utiliser deux machines (une avec une connexion de type NAT et une autre en pont (avec une adresse MAC connue par le serveur dhcp, ```08:00:27:00:03:XX``` (XX est votre numéro) !)). Créez une nouvelle machine Ubuntu2 en faisant un  clone de la première. Mais **avant** installez l'outil iperf dont le manuel d'utilisation est ici <http://openmaniak.com/iperf.php>. Quel est le débit obtenu en mode NAT et en mode bridge ? Quelle configuration d'iperf avez-vous utilisez ? -->
 :::
 
--   Pour faire les tests de performance, on va utiliser deux machines (une avec une connexion de type NAT et une autre en pont. Créez une nouvelle machine Ubuntu2 en faisant un  clone de la première. Mais **avant** installez l'outil iperf dont le manuel d'utilisation est ici <http://openmaniak.com/iperf.php>. Quel est le débit obtenu en mode NAT et en mode bridge ? Quelle configuration d'iperf avez-vous utilisez ? Apporter ces résultats sur moodle.
+-   Pour faire les tests de performance, on va utiliser deux machines (une avec une connexion de type NAT et une autre en pont. Créez une nouvelle machine Ubuntu2 en faisant un  clone de la première. Mais **avant** installez l'outil iperf dont le manuel d'utilisation est ici <http://openmaniak.com/iperf.php>. Quel est le débit obtenu en mode NAT et en mode bridge ? Quelle configuration d'iperf avez-vous utilisez ? Apporter ces résultats sur [moodle](https://moodle.univ-artois.fr/cours/mod/questionnaire/view.php?id=107504).
 
 ::: danger Si vous êtes à l'IUT 
 
