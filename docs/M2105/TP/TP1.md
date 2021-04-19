@@ -234,7 +234,7 @@ vous pouvez allez chercher le taux sur une autre page
 ## Inclusions de pages PHP dans un site
 
 
-Dans cette partie partie vous allez reprendre l'habillage du site Web créé au [**TP n°5 du module M1106**](http://www.lgi2a.univ-artois.fr/~mercier/teaching/M1106_web/M1106_tp5.html) 
+Dans cette partie partie vous allez reprendre l'habillage du site Web créé au [**TP n°4**](https://davidmercier.fr/teaching/M1106/TP/TP4.html) ou [**TP n°5**](https://davidmercier.fr/teaching/M1106/TP/TP52.html)  du module M1106. 
 
 ![](./img/site_page1.png) 
 
