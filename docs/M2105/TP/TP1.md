@@ -14,7 +14,7 @@ sidebarDepth: 1
 - Savoir interagir avec une base PostgreSQL notamment avec des formulaires. 
 
 ## Environnement de travail et organisation du TP
-- Une machine virtuelle Linux (Ubuntu) ou votre machine personnelle avec un serveur LAPP (Linux Apache PHP PostgreSQL)
+- Une machine virtuelle Linux (Ubuntu) ou votre machine personnelle avec un serveur LAPP/WAPP (Linux/Windows Apache PHP PostgreSQL)
 	- un stack bitnami LAPP/WAPP est accessible [ici pour Linux](https://bitnami.com/stack/lapp) et [ici pour Windows](https://bitnami.com/stack/wapp). À l'IUT, pour Ubuntu, le fichier d'installation a déjà été téléchargé pour vous et se trouve sur iut-rt dans le répertoire ```/opt/donneesTP/M2105/```
 		- Copier le fichier sur votre machine
 		
@@ -25,12 +25,12 @@ sidebarDepth: 1
 		
 - Firefox est équipé de l'add-on **Web Developer**.
 - Documentations additionnelles au cours : [Manuel PHP](http://www.php.net/manual/fr/)  et [w3schools PHP](http://www.w3schools.com/php/default.asp) 
-
+- Votre editeur de texte préféré (SublimeText, VSCode, PhpStorm ...)
 ## Une première page de Test
 
 Vérifier votre configuration PHP en utilisant la fonction ```strftime()``` comme vu en cours pour obtenir la date du jour.
 
-``` html
+``` php
 	<!DOCTYPE html>
 	<html lang="fr">
 	<head>
