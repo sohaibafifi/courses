@@ -15,7 +15,7 @@ sidebarDepth: 1
 
 ## Environnement de travail et organisation du TP
 - Une machine virtuelle Linux (Ubuntu) ou votre machine personnelle avec un serveur LAPP (Linux Apache PHP PostgreSQL)
-	- un stack bitnami LAPP est accessible [ici](https://bitnami.com/stack/lapp). À l'IUT, pour Ubuntu, le fichier d'installation a déjà été téléchargé pour vous et se trouve sur iut-rt dans le répertoire ```/opt/donneesTP/M2105/```
+	- un stack bitnami LAPP/WAPP est accessible [ici pour Linux](https://bitnami.com/stack/lapp) et [ici pour Windows](https://bitnami.com/stack/wapp). À l'IUT, pour Ubuntu, le fichier d'installation a déjà été téléchargé pour vous et se trouve sur iut-rt dans le répertoire ```/opt/donneesTP/M2105/```
 		- Copier le fichier sur votre machine
 		
 				scp votrelogin@iut-rt:/opt/donneesTP/M2105/bitnami-lappstack* cheminSurVotreMachine
