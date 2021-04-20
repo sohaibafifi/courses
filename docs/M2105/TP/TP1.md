@@ -228,7 +228,7 @@ Réaliser la page ```convertisseur_action.php```, l'URL action de ce formulaire,
 
 ::: tip Aide
 vous pouvez allez chercher le taux sur une autre page
-```$k=substr(strstr(file_get_contents("http://www.google.com/finance"),'EUR/USD'),28,6);```
+```$k=substr(strstr(file_get_contents("http://www.google.com/finance"),'EUR / USD'),19,6);```
 ::: 
 
 ## Inclusions de pages PHP dans un site
