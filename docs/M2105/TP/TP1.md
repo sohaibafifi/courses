@@ -26,6 +26,10 @@ sidebarDepth: 1
 - Firefox est équipé de l'add-on **Web Developer**.
 - Documentations additionnelles au cours : [Manuel PHP](http://www.php.net/manual/fr/)  et [w3schools PHP](http://www.w3schools.com/php/default.asp) 
 - Votre editeur de texte préféré (SublimeText, VSCode, PhpStorm ...)
+
+::: tip
+Pour un environnement de développement, il faut désactiver le cache php en passante la valeur de `opcache.enable` à `0` dans le fichier `php/php.ini` et ensuite redémarer le service Apache2. 
+:::
 ## Une première page de Test
 
 Vérifier votre configuration PHP en utilisant la fonction ```strftime()``` comme vu en cours pour obtenir la date du jour.
