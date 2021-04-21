@@ -45,7 +45,7 @@ Vérifier votre configuration PHP en utilisant la fonction ```strftime()``` comm
 	</head>
 	<body>
 	<?php
-	   @setlocale(LC_TIME, 'fr_FR');
+	   @setlocale(LC_TIME, 'fr_FR.utf8');
 	   echo "<p> Au moment de l'exécution de ce script PHP, nous sommes le ".strftime('%A %d %B %Y').".</p>";
 	?>
 	</body>
