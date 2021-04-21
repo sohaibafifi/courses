@@ -210,7 +210,7 @@ Réaliser la page ```convertisseur_action.php```, l'URL action de ce formulaire,
 
  <?php
  	$k=1.1421;
-	if ($_POST['sens']==to_dol){   
+	if ($_POST['sens']=='to_dol'){   
 	   $init="euros";
 	   $fin="dollars";
 	 }
@@ -219,7 +219,7 @@ Réaliser la page ```convertisseur_action.php```, l'URL action de ce formulaire,
 	   $init="dollars";
 	   $fin="euros";
 	 }
-	 $res=$k*$_POST['val'];
+	 $res=$k * $_POST['val'];
 	 echo "<p>".$_POST['val']." $init valent $res $fin </p>";
  ?>	
 
