@@ -30,6 +30,8 @@ sidebarDepth: 1
 
 Vérifier votre configuration PHP en utilisant la fonction ```strftime()``` comme vu en cours pour obtenir la date du jour.
 
+- Créer une page ```datedujour.php``` valide W3C dont le corps du HTML (body) contient le code ci-dessous.
+
 ``` php
 	<!DOCTYPE html>
 	<html lang="fr">
@@ -46,7 +48,6 @@ Vérifier votre configuration PHP en utilisant la fonction ```strftime()``` comm
 	</html>
 ```
 	
-- Créer une page ```datedujour.php``` valide W3C dont le corps du HTML (body) contient le code ci-dessous.
 - Tester votre page et vérifier l'affichage de la date en français (si ce n'est pas le cas corriger le code).
 - Compléter ce code pour afficher également les heures, minutes et secondes.
 - Ajouter dans votre code l'affichage d'un paragraphe affichant "Bonne journée !", "Bon après midi !", "Bonne soirée !", ou "Bonne nuit." en fonction de cette heure.
