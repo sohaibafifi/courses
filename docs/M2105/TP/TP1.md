@@ -323,7 +323,7 @@ Appeler l'enseignant pour valider cette première étape (Obligatoire).
 ## Interagir avec une base de données PostgreSQL depuis PHP
 
 
-Dans les données de ce TP se trouve un fichier ```film.sql``` permettant de créer et d'initialiser un schéma film dont le diagramme de classe est illustré sur la figure suivante.
+Dans les données de ce TP se trouve un fichier **[film.sql](film.sql)** permettant de créer et d'initialiser un schéma film dont le diagramme de classe est illustré sur la figure suivante.
 
 ![](./img/film.png) 
 
