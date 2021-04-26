@@ -323,7 +323,7 @@ Appeler l'enseignant pour valider cette première étape (Obligatoire).
 ## Interagir avec une base de données PostgreSQL depuis PHP
 
 
-Dans les données de ce TP se trouve un fichier **[film.sql](film.sql)** permettant de créer et d'initialiser un schéma film dont le diagramme de classe est illustré sur la figure suivante.
+Dans [les données de ce TP](DonneesTP1.zip) se trouve un fichier ```film.sql``` permettant de créer et d'initialiser un schéma film dont le diagramme de classe est illustré sur la figure suivante.
 
 ![](./img/film.png) 
 
@@ -395,7 +395,7 @@ pg_query($conn, "SET SEARCH_PATH=film,PG_CATALOG");
 Modifier alors votre fichier ```genre_liste.php``` pour qu'il utilise le fichier ```connexion.php```. À quoi va servir cette factorisation ?
 
 
-Créer une page ```genre_tab.php``` permettant d'afficher dans un tableau toutes les colonnes de la table genre (id, genre). Vous utiliserez un habillage de tableau similaire à celui employé au **TP n°3 M1106**. Vous avez le fichier ```film.css``` dans les données de ce TP.
+Créer une page ```genre_tab.php``` permettant d'afficher dans un tableau toutes les colonnes de la table genre (id, genre). Vous utiliserez un habillage de tableau similaire à celui employé au **TP n°3 M1106**. Vous avez le fichier ```film.css``` dans [les données de ce TP](DonneesTP1.zip).
 
 
 >Voir fichier ```exemple_caddie.php``` du cours et fonctions : ```pg_num_rows```, ```pg_num_fields```, ```pg_result```, ```pg_fetch_array```.
