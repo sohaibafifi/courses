@@ -581,5 +581,5 @@ Barème à titre indicatif
 
 
 ::: danger INFO 
-Le site sera évalué pendant la troisième séance.
+Le site sera évalué pendant la dernière séance.
 :::
