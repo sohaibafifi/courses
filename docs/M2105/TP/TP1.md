@@ -335,7 +335,7 @@ Le schéma film contient les 5 tables suivantes :
 - film (id, titre, anneesortie, idrealisateur=>realisateur(id))
 - genrefilm (id, idfilm=>film(id), idgenre=>genre(id))
 - repliquescultes (id, replique, idfilm)
-``
+```
 
 Insérer ce schéma dans votre base de données, puis créer la page suivante ```genre_liste.php``` permettant d'afficher la liste des genres de film contenus dans la base.
 
